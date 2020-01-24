@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { WorkExpItemComponent } from './work-exp-item/work-exp-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WorkExpItemComponent
   ],
   imports: [
     BrowserModule,
